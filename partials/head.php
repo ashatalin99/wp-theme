@@ -5,7 +5,7 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	i<meta name="robots" content="noindex, nofollow">
+	<meta name="robots" content="noindex, nofollow">
 	<meta http-equiv="cleartype" content="on">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	

@@ -67,6 +67,7 @@ function load_scripts() {
 }
 add_action('wp_enqueue_scripts', 'load_scripts');
 
+/*
 // Check if domain contains localhost, then inject livereload script
 if (strpos(get_site_url(), "localhost") !== false) {
 	function addReloadScript () {
@@ -78,6 +79,7 @@ if (strpos(get_site_url(), "localhost") !== false) {
 	}
 	add_action('wp_footer', 'addReloadScript');
 }
+	*/
 /**
  * Admin CSS
  */
