@@ -3,13 +3,13 @@
 /**
  * Remove default link option for images
  */
-function imagelink_setup() {
+function image_link_setup() {
 	$image_set = get_option( 'image_default_link_type' );
 	if ( $image_set !== 'none' ) {
 		update_option( 'image_default_link_type', 'none' );
 	}
 }
-add_action('admin_init', 'imagelink_setup', 10 );
+add_action('admin_init', 'image_link_setup', 10 );
 
 /**
  * Add ability to upload SVGs

@@ -1,5 +1,4 @@
 <?php  
-$root_directory = get_template_directory();
 get_template_part('partials/head');
 ?>
 <body <?php body_class(); ?>>
@@ -8,7 +7,7 @@ get_template_part('partials/head');
 		get_main_header();
 	?>
 	
-	<main class="main 3xl:grid-cols-6 grid grid-cols-2 md:grid-cols-4">
+	<main>
 		<?php get_main_template(); ?>
 	</main>
 

@@ -17,12 +17,21 @@ function format_url_safe_text($string) {
  * @param int $length The length to which to truncate the string
  * @param string $append A string that will be appended to the end of a truncated string
  */
-function truncate( $string, $length, $append = '&hellip;' ) {
-	if( strlen( $string ) > $length ) {
-		$string = substr( $string, 0, strrpos( substr( $string, 0, $length ), ' ') );
-		$string .= $append;
+function truncate( $text, $length, $append = '&hellip;' ) {
+	if ( strlen($text) <= $length ) {
+		return $text;
 	}
-	return $string;
+	
+	$last_space = strrpos(substr($text, 0, $length), ' ');
+	
+	if (!$last_space) {
+		$last_space = $length;
+	}
+
+	$truncated_text = substr($text, 0, $last_space) . $append;
+	
+	return $truncated_text;
+	
 }
 
 function breadcrumbs_from_url() {

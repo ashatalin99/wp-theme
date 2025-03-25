@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
+<html>
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="HandheldFriendly" content="True">
