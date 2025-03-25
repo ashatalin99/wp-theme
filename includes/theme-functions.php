@@ -30,10 +30,18 @@ add_action('init', 'remove_comment_support', 100);
 
 // Remove editor from pages
 function remove_content_editor() { 
-    remove_post_type_support('page', 'editor');        
+    remove_post_type_support('page', 'editor'); 
+	remove_post_type_support('post', 'editor');        
 }
 
 add_action('admin_head', 'remove_content_editor');
+
+// Remove tags from posts
+function remove_tag_box() { 
+	remove_meta_box( 'tagsdiv-post_tag' , 'post' , 'normal' );       
+}
+
+add_action('admin_menu', 'remove_tag_box');
 
 function is_user_agent($check_string, $show_user_agent = false) {
 	$user_agent = ( isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '' );
