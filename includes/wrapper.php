@@ -21,12 +21,12 @@ function get_main_footer() {
 	@include new Theme_Wrapper('partials/footer.php');
 }
 
-function get_custom_header($header_path) {
+function get_custom_main_header($header_path) {
 	global $post;
 	@include new Theme_Wrapper($header_path);
 }
 
-function get_custom_footer($footer_path) {
+function get_custom_main_footer($footer_path) {
 	global $post;
 	@include new Theme_Wrapper($footer_path);
 }
