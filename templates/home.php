@@ -1,6 +1,6 @@
 <?php 
 /**
- * Template Name: Homepage
+ * Template Name: Home
  */
 
  echo 'This is homepage';

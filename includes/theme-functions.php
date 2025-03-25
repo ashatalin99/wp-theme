@@ -28,16 +28,6 @@ function remove_comment_support() {
 
 add_action('init', 'remove_comment_support', 100);
 
-// Remove editor form homepage template
-// function hide_editor() {
-//     $template_file = basename( get_page_template() );
-//     if($template_file == 'page-template-homepage.php'){
-//         remove_post_type_support('page', 'editor');
-//     }
-// }
-
-// add_action( 'admin_head', 'hide_editor' );
-
 // Remove editor from pages
 function remove_content_editor() { 
     remove_post_type_support('page', 'editor');        
@@ -64,6 +54,6 @@ function is_user_agent($check_string, $show_user_agent = false) {
 // Adding language specific class to accommodate language specific css styles
 add_filter( 'body_class', function( $classes ) {
 	$site_lang = get_bloginfo('language');
-	$formated_tag = 'lang-' . substr($site_lang, 0, 2);
-    return array_merge( $classes, array( $formated_tag ) );
+	$formatted_tag = 'lang-' . substr($site_lang, 0, 2);
+    return array_merge( $classes, array( $formatted_tag ) );
 } );
