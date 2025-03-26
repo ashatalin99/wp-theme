@@ -22,7 +22,7 @@ $args = array(
 	'has_archive'           => false,
 	'labels'                => $labels,
 	'description'           => '',
-	'public'                => false,
+	'public'                => true,
 	'exclude_from_search'   => false,
 	'publicly_queryable'    => true,
 	'show_ui'               => true,
@@ -37,4 +37,4 @@ $args = array(
 	'taxonomies'            => array('category')
 );
 
-//register_post_type('event', $args );
+//register_post_type('events', $args );
