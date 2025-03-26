@@ -2,7 +2,7 @@
 /**
  * Theme wrapper
  *
- * @link http://roots.io/an-introduction-to-the-roots-theme-wrapper/
+ * @link http://roots.io
  * @link http://scribu.net/wordpress/theme-wrappers.html
  */
 
