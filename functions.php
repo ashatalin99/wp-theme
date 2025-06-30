@@ -28,21 +28,6 @@ function theme_setup() {
 	// Register commonly used menus
 	register_nav_menus( array(
 		// 'header_top_nav' => __( 'Mega Menu - Top Navigation' ),
-		// 'header_languages_nav' => __( 'Header - Languages Navigation' ),
-		// 'mobile_languages_nav' => __( 'Mobile - Languages Navigation' ),
-  //       'header_bottom_nav' => __( 'Mega Menu - Bottom Navigation' ),
-		// 'header_microsite_nav' => __( 'Header - Microsite Navigation' ),
-		// 'header_careers_nav' => __( 'Header - Careers Navigation' ),
-  //       'mega_menu_products_services' => __( 'Mega Menu - Products & Services' ),
-  //       'mega_menu_why_crowdstrike' => __( 'Mega Menu - Why Crowdstrike' ),
-  //       'mega_menu_partners' => __( 'Mega Menu - Partners' ),
-  //       'mega_menu_company' => __( 'Mega Menu - Company' ),
-  //       'mega_menu_resources' => __( 'Mega Menu - Resources' ),
-  //       'mobile_main_nav' => __( 'Mobile Menu - Main Navigation' ),
-		// 'footer_social_nav' => __( 'Footer - Social Navigation' ),
-		// 'footer_languages_nav' => __( 'Footer - Languages Navigation' ),
-		// 'footer_bottom_nav' => __( 'Footer - Bottom Navigation' ),
-		// 'footer_main_nav' => __( 'Footer - Main Navigation' ),
 		// 'footer_microsite_nav' => __( 'Footer - Microsite Navigation' ),
 		// 'footer_careers_nav' => __( 'Footer - Careers Navigation' ),
 	));
