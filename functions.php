@@ -29,7 +29,6 @@ function theme_setup() {
 	register_nav_menus( array(
 		// 'header_top_nav' => __( 'Mega Menu - Top Navigation' ),
 		// 'footer_microsite_nav' => __( 'Footer - Microsite Navigation' ),
-		// 'footer_careers_nav' => __( 'Footer - Careers Navigation' ),
 	));
 
 	// Cleanup Head
