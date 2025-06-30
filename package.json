@@ -7,7 +7,7 @@
     "build": "webpack --mode=production",
     "watch": "webpack --watch --mode=development",
     "dev"  : "npx @tailwindcss/cli -i ./style.css -o ./dist/theme-styles.min.css --watch",
-    "dev:optimize" : "npx tailwindcss -o ./dist/theme-styles.min.css --minify",
+    "optimize_css" : "npx tailwindcss -o ./dist/theme-styles.min.css --minify",
     "test": "jest"
   },
   "dependencies": {
